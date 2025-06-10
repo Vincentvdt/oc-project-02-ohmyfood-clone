@@ -1,0 +1,84 @@
+@keyframes like-stroke {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes like-fill {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hover {
+  0% {
+
+    transform: scale(0.1);
+  }
+  100% {
+
+    transform: scale(0.5);
+  }
+}
+
+.heart-icon {
+  cursor: pointer;
+
+  input[type="checkbox"] {
+    -moz-appearance: checkbox;
+    -webkit-appearance: checkbox;
+    display: none;
+    cursor: pointer;
+  }
+
+  @media(hover: hover) {
+    input[type="checkbox"]:hover + svg .fill-heart {
+      opacity: 1;
+      animation: hover 250ms forwards;
+    }
+
+
+    input[type="checkbox"]:hover + svg .stroke-heart {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  }
+
+
+  input[type="checkbox"]:checked + svg .fill-heart {
+    animation: like-fill 1s cubic-bezier(.65, .18, 0, 1.48) forwards;
+  }
+
+  input[type="checkbox"]:checked + svg .stroke-heart {
+    animation: like-stroke 1s cubic-bezier(.65, .18, 0, 1.48) forwards;
+  }
+
+
+  svg {
+    overflow: visible;
+
+    .stroke-heart {
+      transform-origin: center;
+      fill: #101010;
+      transition: opacity .4s ease-in-out;
+    }
+
+    .fill-heart {
+      opacity: 0;
+      transform-origin: center;
+      fill: url(#SVGID_1_);
+    }
+
+  }
+
+}

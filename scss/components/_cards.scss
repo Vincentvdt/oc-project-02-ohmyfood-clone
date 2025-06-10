@@ -1,0 +1,93 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: $white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.10);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-self: stretch;
+  text-decoration: none;
+  color: $black;
+
+  @include md {
+    flex-basis: calc(100% / 2 - 25px);
+  }
+
+  &__new {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 7px 10px;
+    border-radius: 2px;
+    color: #008766;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background: #99E2D0;
+  }
+
+  &.new .card__new {
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  &__img-wrapper {
+    height: 174px;
+    align-self: stretch;
+    flex-shrink: 0;
+
+    @include md {
+      height: 124px;
+    }
+
+    @include xl {
+      height: 183px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 25px 12px 13px;
+
+    .content__info {
+      display: flex;
+      flex-direction: column;
+      align-self: stretch;
+      gap: 5px;
+
+      &-title {
+        align-self: stretch;
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      &-location {
+        align-self: stretch;
+        font-size: 1.0625rem;
+        font-weight: 300;
+        line-height: 1;
+      }
+    }
+
+    .content__icon {
+      @include icon_wrapper();
+      width: 22px;
+      height: auto;
+      overflow: visible;
+    }
+  }
+}

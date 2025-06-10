@@ -1,0 +1,27 @@
+@import '../utils/variables';
+
+.btn {
+  border: none;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-image: $button-gradient;
+  color: $white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: .25s ease-out;
+
+  &:hover {
+    background-color: #fff;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.35);
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 3px solid #9356DC;
+  }
+}

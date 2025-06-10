@@ -1,0 +1,38 @@
+$font-family-base:'Roboto', sans-serif;
+$font-family-headings: 'Shrikhand', cursive;
+
+$main-font-size: 16px;
+
+$white: #FFF;
+$black: #000;
+$black-2: #101010;
+$grey: #353535;
+$grey-2: #EAEAEA;
+$grey-3: #EAEAEA;
+$grey-4: #7E7E7E;
+
+
+
+$button-gradient: linear-gradient(175deg, rgba(147, 86, 220, 0.9) 0%, rgba(255, 121, 218, 0.9) 100%);
+
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$highlight-color: #99E2D0;
+$text-color: $black;
+
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm: 576px;
+
+// Small tablets (portrait view)
+$screen-md: 768px;
+
+// Tablets and small desktops
+$screen-lg: 992px;
+
+// Large tablets and desktops
+$screen-xl: 1200px;
+
+// Large tablets and desktops
+$screen-xxl: 1400px;
+

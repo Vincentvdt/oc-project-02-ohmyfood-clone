@@ -1,0 +1,48 @@
+@import '../utils/variables';
+
+html {
+  font-size: $main-font-size;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $main-font-size;
+  color: $text-color;
+  font-style: normal;
+  line-height: normal;
+}
+
+p, button {
+  font-family: $font-family-base;
+
+}
+
+.logo {
+  font-family: $font-family-headings;
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.logo.logo-sm {
+  font-size: 1.125rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-family-base;
+  font-weight: 700;
+  text-rendering: optimizelegibility;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h1 + p {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
