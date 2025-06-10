@@ -1,6 +1,5 @@
-@import "../utils/variables";
-@import "../utils/mixins";
-
+@import "../variables";
+@import "../mixins";
 
 .loader-wrapper {
   position: fixed;
@@ -13,11 +12,11 @@
   padding: 0;
   margin: 0;
   z-index: 9999;
-  animation: loaderFadeOut 1s ease forwards 3.5s;
+  animation: loaderFadeOut 0.5s ease forwards 1.2s;  // fade out starts fast & early
 
   .loader-spinner {
     transform: scale(1);
-    animation: zoomOut 1s cubic-bezier(.42, -0.5, 1, .7) forwards 2.5s;
+    animation: zoomOut 0.4s cubic-bezier(.42, 0, .58, 1) forwards 0.9s;  // quick zoom out
 
     @include sm {
       transform: scale(1.2);
@@ -41,12 +40,7 @@
         stroke-dasharray: 0;
         stroke-dashoffset: 90px;
         stroke: rgba(255, 255, 255, 0);
-        animation: strokeDash 4s ease forwards 1s;
-        // animation-name: strokeDash;
-        // animation-delay: 4s;
-        // animation-timing-function: ease;
-        // animation-direction: forwards;
-        // animation-delay: 1s;
+        animation: strokeDash 1s ease-in-out forwards 0.1s;  // fast stroke animation
       }
     }
   }
@@ -56,18 +50,16 @@
   0% {
     fill: rgba(255, 255, 255, 0);
     stroke-dasharray: 25px;
-
   }
-  1% {
+  15% {
     stroke: rgba(255, 255, 255, 1);
   }
-  80% {
+  85% {
     fill: rgba(255, 255, 255, 1);
     stroke-dasharray: 265px;
-
   }
   100% {
-    transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.05, 1.05, 1.05);
   }
 }
 

@@ -1,5 +1,5 @@
-@import '../utils/variables';
-@import '../utils/mixins';
+@import '../variables';
+@import '../mixins';
 
 .card {
   position: relative;
@@ -82,6 +82,7 @@
         line-height: 1;
       }
     }
+    
 
     .content__icon {
       @include icon_wrapper();

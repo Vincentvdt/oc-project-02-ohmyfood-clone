@@ -438,7 +438,7 @@ main {
   width: 100%;
   height: 100%;
 }
-.header__logo .header__back.desactived {
+.header__logo .header__back.disabled {
   display: none;
 }
 .header__logo .header__back:hover svg {
@@ -471,7 +471,7 @@ main {
   gap: 17px;
   background-color: #EAEAEA;
 }
-.header__location.desactived {
+.header__location.disabled {
   display: none;
 }
 .header__location-icon {
@@ -620,7 +620,6 @@ footer {
   cursor: pointer;
 }
 .heart-icon input[type=checkbox] {
-  -moz-appearance: checkbox;
   -webkit-appearance: checkbox;
   display: none;
   cursor: pointer;
@@ -666,11 +665,11 @@ footer {
   padding: 0;
   margin: 0;
   z-index: 9999;
-  animation: loaderFadeOut 1s ease forwards 3.5s;
+  animation: loaderFadeOut 0.5s ease forwards 1.2s;
 }
 .loader-wrapper .loader-spinner {
   transform: scale(1);
-  animation: zoomOut 1s cubic-bezier(0.42, -0.5, 1, 0.7) forwards 2.5s;
+  animation: zoomOut 0.4s cubic-bezier(0.42, 0, 0.58, 1) forwards 0.9s;
 }
 @media (min-width: 576px) {
   .loader-wrapper .loader-spinner {
@@ -701,7 +700,7 @@ footer {
   stroke-dasharray: 0;
   stroke-dashoffset: 90px;
   stroke: rgba(255, 255, 255, 0);
-  animation: strokeDash 4s ease forwards 1s;
+  animation: strokeDash 1s ease-in-out forwards 0.1s;
 }
 
 @keyframes strokeDash {
@@ -709,15 +708,15 @@ footer {
     fill: rgba(255, 255, 255, 0);
     stroke-dasharray: 25px;
   }
-  1% {
+  15% {
     stroke: rgb(255, 255, 255);
   }
-  80% {
+  85% {
     fill: rgb(255, 255, 255);
     stroke-dasharray: 265px;
   }
   100% {
-    transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.05, 1.05, 1.05);
   }
 }
 @keyframes zoomOut {
@@ -1025,7 +1024,7 @@ footer {
 .restaurant-page .menu__section-title::after {
   content: "";
   display: block;
-  border: 1.5px solid #99E2D0;
+  border: 1px solid #99E2D0;
   width: 40px;
   margin-top: 5px;
 }
@@ -1056,4 +1055,4 @@ footer {
   }
 }
 
-/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=main.css.map */

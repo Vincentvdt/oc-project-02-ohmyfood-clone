@@ -12,7 +12,7 @@ This project was developed as part of the **Développeur d'application - JavaScr
 The mission: turn a provided Figma mockup into a responsive, animated restaurant site.  
 The design? Already done. My job? Bring it to life — mobile-first, smooth, and pixel-perfect.
 
-Ohmyfood is a fictional startup aiming to reduce restaurant wait times by letting users **pre-compose meals online**. The app showcases 4 gastronomic menus, animated interactions, and a polished responsive layout.
+Ohmyfood is a fictional startup aiming to reduce restaurant wait times by letting users **pre-compose meals online**. The app showcases four gastronomic menus, animated interactions, and a polished responsive layout.
 
 ## ⚠️ Design Disclaimer
 
@@ -37,14 +37,14 @@ My role was the **integration**, not the visuals. Blame the pixels, not the code
 
 ## 💬 Evaluation
 
-> ✅ *Project validated — The site is responsive, animations are smooth, and structure is solid. Great work on presentation and turnaround speed!*
+> ✅ *Project validated — The site is responsive, animations are smooth, and the structure is solid. Great work on presentation and turnaround speed!*
 
 **Evaluation Highlights:**
 
-- ✅ CSS effects & animations implemented and valid  
-- ✅ Mobile-first with specific breakpoints for tablet & desktop  
+- ✅ CSS effects and animations implemented and valid  
+- ✅ Mobile-first with specific breakpoints for tablet and desktop  
 - ✅ GitHub usage + GitHub Pages hosted  
-- ✅ Structure, presentation & feedback response all on point  
+- ✅ Structure, presentation, and feedback response all on point  
 
 **Areas for growth:**  
 _(None noted — just “good luck and congrats” 🎉)_

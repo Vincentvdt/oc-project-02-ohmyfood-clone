@@ -31,11 +31,12 @@
   }
 }
 
+
+
 .heart-icon {
   cursor: pointer;
 
   input[type="checkbox"] {
-    -moz-appearance: checkbox;
     -webkit-appearance: checkbox;
     display: none;
     cursor: pointer;
