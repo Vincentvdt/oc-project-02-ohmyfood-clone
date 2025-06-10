@@ -2,15 +2,13 @@
 
 Mobile-first restaurant menu platform for a fictional gourmet food startup expanding from NYC to Paris.  
 
-Built with love, animations, and clean code — **but I didn’t design it**. Keep reading 😌👇
-
 ---
 
 ## 🚀 Project context
 
 This project was developed as part of the **Développeur d'application - JavaScript React** formation at OpenClassrooms.  
 The mission: turn a provided Figma mockup into a responsive, animated restaurant site.  
-The design? Already done. My job? Bring it to life — mobile-first, smooth, and pixel-perfect.
+The design? Already done. My job? Bring it to life, mobile-first, smooth, and pixel-perfect.
 
 Ohmyfood is a fictional startup aiming to reduce restaurant wait times by letting users **pre-compose meals online**. The app showcases four gastronomic menus, animated interactions, and a polished responsive layout.
 
@@ -58,7 +56,7 @@ _(None noted — just “good luck and congrats” 🎉)_
 
 1. Clone this repo  
 2. Open `index.html` in your browser  
-3. No build tools needed — just HTML & CSS magic  
+3. No build tools needed, just HTML & CSS magic  
 
 ## 📚 Credits
 
