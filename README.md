@@ -16,9 +16,10 @@ Ohmyfood is a fictional startup aiming to reduce restaurant wait times by lettin
 
 ## ⚠️ Design Disclaimer
 
- **I didn’t design this**. The Figma mockups and UX flows were handed to me as part of the assignment.  
-So if you’re side-eyeing the fonts or color combos, that’s not my doing 😅  
-My role was the **integration**, not the visuals. Blame the pixels, not the coder.
+**I didn’t design this**. The Figma mockups and UX flows were handed to me as part of the assignment.  
+So if you’re side-eyeing the fonts, colors, layout choices, or even the **animations**, that’s not my doing 😅  
+My role was to **integrate** everything faithfully as specified. I focused on code quality, responsiveness, and smooth execution,  
+not on choosing the aesthetics or interactions. Blame the pixels, not the coder.
 
 ## 🛠️ Built with
 
