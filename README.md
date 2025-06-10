@@ -51,7 +51,7 @@ _(None noted — just “good luck and congrats” 🎉)_
 
 ## 📸 Preview
 
-(Insert link to live site or screenshots)
+- [Live Demo (Ohmyfood)](https://vincentvdt.github.io/oc-project-02-ohmyfood-clone/)
 
 ## 📁 Getting started
 
